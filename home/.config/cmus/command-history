@@ -1,0 +1,5 @@
+colorscheme gruvbox-dark
+q
+help
+:q
+bind common <key> add
