@@ -11,7 +11,9 @@ xrdb -load ~/.config/Xresources
 xrandr --output HDMI-1 --mode 1920x1080 --right-of HDMI-2 --output HDMI-2 --primary --mode 1920x1080 &
 
 # setup redshift
-redshift &
+#redshift &
+# setup redshift
+redshift -l 51.32:4.94 -t 6500:5000 -g 0.8 -m randr &
 
 # polkit
 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
